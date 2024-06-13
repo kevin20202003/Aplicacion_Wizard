@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Aplicacion_Wizard.Views.Step2Page">
+    <StackLayout Padding="20">
+        <Label Text="Step 2: Car Details" FontSize="Large" />
+        <Entry Placeholder="Enter car make" x:Name="MakeEntry" />
+        <Entry Placeholder="Enter car model" x:Name="ModelEntry" />
+        <Entry Placeholder="Enter car year" x:Name="YearEntry" Keyboard="Numeric" />
+        <Button Text="Next" Clicked="OnNextButtonClicked" />
+    </StackLayout>
+</ContentPage>
